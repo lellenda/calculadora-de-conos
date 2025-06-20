@@ -1,0 +1,53 @@
+h1 {
+color: rgb(94, 0, 245);
+}
+
+.contenedor {
+    background-color: rgb(211, 180, 180);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;}
+
+.calculadora {
+     background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow:  0px 0px 10px #f10606;
+    padding: 40px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 13px;
+    background-color: #b7f1f1;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    background-color: #00d9ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(90deg  #08f7f9, #ff00c3);
+}
+
+button:hover {
+    transition: 0.4s;
+    background-color: #ff00c3;
+    box-shadow: 0px 0px 10px #000000;
+    color: #000000;
+   
+}
+
+#res
